@@ -1,0 +1,343 @@
+#TextTopTytle {
+    color: white;
+    font-family: "Geostar Fill", sans-serif;
+    margin-left: 290px;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#TextTopTytleRight1 {
+    color: white;
+    font-family: "Anaheim", sans-serif;
+    margin-left: 1200px;
+    font-size: 28px;
+    margin-top: 35px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 140px;
+    height: 53px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(179, 233, 255);
+    text-align: center;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 0.42s;
+    background-image: linear-gradient(to top, rgba(49, 104, 126, 0.226), rgba(0, 0, 0, 0));
+}
+
+#TextTopTytleRight1:hover {
+    color: rgb(179, 233, 255);
+    -webkit-text-stroke: 1px rgb(179, 233, 255);
+    border-bottom: 1px solid rgb(179, 233, 255);
+    background-image: linear-gradient(to top, rgba(49, 104, 126, 0.589), rgba(0, 0, 0, 0));
+    font-size: 35px;
+}
+
+#TextTopTytleRight2 {
+    color: white;
+    font-family: "Anaheim", sans-serif;
+    margin-left: 1340px;
+    font-size: 28px;
+    margin-top: 35px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 140px;
+    height: 53px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.42s;
+    background-image: linear-gradient(to top, rgba(49, 104, 126, 0.226), rgba(0, 0, 0, 0));
+}
+
+#TextTopTytleRight2:hover {
+    color: rgb(179, 233, 255);
+    -webkit-text-stroke: 1px rgb(179, 233, 255);
+    border-bottom: 1px solid rgb(179, 233, 255);
+    background-image: linear-gradient(to top, rgba(49, 104, 126, 0.589), rgba(0, 0, 0, 0));
+    font-size: 35px;
+}
+
+#TextTopTytleRight3 {
+    color: white;
+    font-family: "Anaheim", sans-serif;
+    margin-left: 1480px;
+    font-size: 28px;
+    margin-top: 35px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 140px;
+    height: 53px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.42s;
+    background-image: linear-gradient(to top, rgba(49, 104, 126, 0.226), rgba(0, 0, 0, 0));
+}
+
+#TextTopTytleRight3:hover {
+    color: rgb(179, 233, 255);
+    -webkit-text-stroke: 1px rgb(179, 233, 255);
+    border-bottom: 1px solid rgb(179, 233, 255);
+    background-image: linear-gradient(to top, rgba(49, 104, 126, 0.589), rgba(0, 0, 0, 0));
+    font-size: 35px;
+}
+
+#TextTopTytleRight4 {
+    color: white;
+    font-family: "Anaheim", sans-serif;
+    margin-left: 1620px;
+    font-size: 28px;
+    margin-top: 35px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 140px;
+    height: 53px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.42s;
+    background-image: linear-gradient(to top, rgba(49, 104, 126, 0.226), rgba(0, 0, 0, 0));
+}
+
+#TextTopTytleRight4:hover {
+    color: rgb(179, 233, 255);
+    -webkit-text-stroke: 1px rgb(179, 233, 255);
+    border-bottom: 1px solid rgb(179, 233, 255);
+    background-image: linear-gradient(to top, rgba(49, 104, 126, 0.589), rgba(0, 0, 0, 0));
+    font-size: 35px;
+}
+
+#BackgroundTop {
+    background-color: rgba(8, 18, 20, 0.651);
+    width: 1750px;
+    margin-left: 90px;
+}
+
+#BackgroundPrincipal1 {
+    background-color: cadetblue;
+    background-image: url(Images/webicon.png);
+    background-image: linear-gradient(to top, rgb(49, 104, 126), rgb(7, 13, 14));
+    width: 1919px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 580px;
+    z-index: -2;
+    box-shadow: 0 0 20px gray;
+}
+
+#ImagePrincipal1 {
+    background-image: url(Images/webicon.png);
+    width: 1919px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 580px;
+    z-index: -1;
+    filter: blur(0.8px);
+    -webkit-mask-image: linear-gradient(to top, black, transparent);
+    mask-image: linear-gradient(to top, black, transparent);
+    animation-duration: 5.2s;
+    animation-name: FondoAnim;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-size: 285.5px;
+}
+
+@keyframes FondoAnim {
+  0% {background-position: 0% 0%;}
+  100% {background-position: 0% 100%;}
+}
+
+#TextCenterTopStyle1 {
+    color: white;
+    font-family: "Cal Sans", sans-serif;
+    z-index: 2;
+    font-size: 55px;
+    margin-left: 345px;
+    width: 700px;
+    border-radius: 9px;
+    animation-name: StartAnim;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-shadow: 0 0 15px rgb(8, 18, 22);
+}
+
+@keyframes StartAnim {
+    0% {opacity: 0%; margin-left: 0px; transform: rotate(12deg);}
+    100% {opacity: 100%; margin-left: 345px; transform: rotate(0deg);}
+}
+
+@keyframes StartAnim2 {
+    0% {opacity: 0%; margin-left: 190px; transform: rotate(-13deg); background-color: rgba(10, 25, 29, 0.185);}
+    100% {opacity: 100%; margin-left: 345px; transform: rotate(0deg); background-color: rgba(10, 25, 29, 0.288);}
+}
+
+@keyframes StartAnim3 {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+#TextCenterTopStyle2 {
+    color: white;
+    font-family: "Anaheim", sans-serif;
+    padding: 15px;
+    z-index: 2;
+    background-color: rgba(10, 25, 29, 0.288);
+    font-size: 18px;
+    margin-left: 345px;
+    margin-top: -30px;
+    width: 700px;
+    border-radius: 9px;
+    animation-name: StartAnim2;
+    animation-duration: 1.2s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.475);
+    box-shadow: 0 0 5px rgb(8, 18, 22);
+    border-left: 8px solid rgb(10, 25, 29);
+}
+
+#ButtonLinkStyle1 {
+    text-align: center;
+    font-family: "Bellota Text", sans-serif;
+    padding: 15px;
+    z-index: 2;
+    background-color: rgb(255, 153, 0);
+    font-size: 25px;
+    margin-left: 345px;
+    margin-top: 60px;
+    width: 180px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(8, 18, 22);
+    border: 3px solid rgb(155, 124, 79);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.315), rgba(255, 219, 164, 0.301));
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.88s;
+    cursor: pointer;
+    -webkit-text-stroke: 1.7px white;
+}
+
+#ButtonLinkStyle1:hover {
+    transform: scale(1.03);
+    -webkit-text-stroke: 0px rgb(0, 0, 0);
+    background-color: rgb(255, 161, 19);
+    border: 2px solid;
+    border-color: rgb(92, 82, 68);
+    outline: 5px solid rgba(255, 230, 193, 0.411);
+    animation-duration: 2.82s;
+    animation-name: FondoAnimLink;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-size: 90px;
+    background-image: url(Images/arrow.png), linear-gradient(to top, rgba(0, 0, 0, 0.253), rgba(255, 219, 164, 0.301));
+    filter: saturate(2);
+}
+
+@keyframes FondoAnimLink {
+  0% {background-position: 0% 0%;}
+  100% {background-position: 300% 0%;}
+}
+
+#AIRE_1 {
+    background-color: white;
+    width: auto;
+    height: 40px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+#Box1 {
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.589);
+    width: 340px;
+    height: 560px;
+    border-left: 8px solid rgb(56, 56, 56);
+    border-bottom: 8px solid rgb(56, 56, 56);
+    border-radius: 12px;
+    border-bottom-right-radius: 0px;
+}
+
+#TitleBox {
+    color: rgb(255, 255, 255);
+    font-family: "DotGothic16", sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    background-color: rgb(56, 56, 56);
+    border-top-left-radius: 5px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.11));
+}
+
+#TextBox1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 24px;
+    font-size: 28px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#HoverBoxExample {
+    box-shadow: 0 0 5px rgb(167, 167, 167);
+    border-radius: 3px;
+    border: 1px solid rgb(97, 97, 97); 
+    width: 240px;
+    height: 170px;
+    margin-left: 40px;
+}
+
+#desc {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    width: 280px;
+    margin-left: 30px;
+}
+
+#texthover {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(209, 209, 209);
+}
+
+#HOVER_1 {
+    background-color: blue;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 4px;
+}
+
+#HOVER_1:hover {
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+
+#HOVER_2 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 4px;
+}
+
+#HOVER_2:hover {
+    outline: 5px rgb(167, 167, 167) solid;
+    cursor: pointer;
+}
+
+#HOVER_3 {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 4px;
+}
+
+#HOVER_3:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
